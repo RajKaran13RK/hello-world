@@ -1,0 +1,50 @@
+git init - git initialisation / git init flodername
+pwd/cd gives path to current directory 
+ls - know list of contents in folder , white files, blue folders, purple green sw
+cd - change directory
+cd .. - to go back path
+mkdir nameoffolder - to make folder
+touch filename.extention - to make file
+rmdir foldername - delete folder
+rm filename - delete file
+rm -f/-rf/-r -f filename/foldername - delete folder forcefully
+Mv newfilename - Renaming by moving the file/folder
+vi try.txt - to open text editor (Enter i to write in it)
+esc+: then -> wq - to save and return to terminal
+\v =goes down and then one tab. \t= 1 tab. \n = new line.
+echo -e "sentences" >filename.extension - To enter txt in a file
+echo -e "sentences" >>filename.extension - To create and add content in a file without creating it in advance
+">" and ">>" are different... if single ">" then deletes previous text and shows only new and if double ">>" then it appends new text to previous text. (febraury 2)
+cat filename extension - to show things in a file\
+chmod - read"r"/"4", write"w"/"2", execute"x"/"1", no permission"-"/"0", all"wrx"/"7"
+chmod 777 (all users all permissions)(permissions given if +)
+chmod 777 (all users all permissions)(permissions taken away if -)
+chmod u-r, o-w filename.txt (to add/remove multiple permisioons to difrewrn users in single command)
+chmod a+wrx (all users all permissions)(permissions given) (febraruay 4)
+ls -l filename - To check file permissions (owner"o", group"g", all other users"u", all users"a")
+git add filename (to add single file)
+git add filename filename (to add multiple files)
+git add . or git add -A *.* or git add -a *.*(to add all files))first star is name and second * is format)
+git statusgi 
+git log  (commit before log)
+git diff 
+git rm fl2.txt (shows error)
+git fm fl2.txt --cached 
+git restore --staged fl1.txt
+git reset fl1.txt
+git commit -m "message" (First commit and last commit as message)(bug fix:what bug is fixed)(removed/added feature:which feature)
+git config --global user.name "RajKaran13RK"
+git config --list
+git branch
+git branch --list
+git branch branchname
+git checkout branchname
+git checkout -b branch3
+-b, -c, -m/-M, -d/-D
+git checkout -b branch4 branch3
+git branch -M main
+git branch -m name1 name2
+git remote add origin https:
+git push -u origin main/master
+git clone https:
+logout
